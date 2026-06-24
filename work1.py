@@ -1,0 +1,6 @@
+a = input("team1: ")
+b = input("team2: ")
+x = input("score1: ")
+y = input("score2: ")
+print(a + " vs " + b)
+print("final score " + x + " to " + y)

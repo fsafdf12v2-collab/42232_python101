@@ -1,1 +1,1 @@
-print("hello\ndih")
+print("hello\nworld")
