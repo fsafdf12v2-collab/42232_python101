@@ -1,0 +1,45 @@
+data types
+int: จำนวนเต็ม
+    + - *: บวก ลบ คูณ
+    /: หาร float
+    //: หารปัดลง
+    %: หารเอาแต่เศษ
+    **: ยกกำลัง
+float: ทศนิยม
+    ต้องมีจุด
+    หารได้ float เสมอ
+    ใช้ round ได้ เช่น import math
+                    print(round(math.pi,2))
+string (str): ตัวอักษร
+    \": ใช้ฟันหนูใน variable
+bool: True,False
+    เช็คค่าโดยใช้ type(variable)
+    หรือพิมพ์เช่น: import math
+                print(round(math.pi,2) == 3.14)
+None:
+    ไม่มีข้อมูล ไม่มีค่า data type
+
+type() :
+    ใช้ type(variable) หรือ ชุด bool เช่น print(type(round(math.pi,2) == 3.14))
+
+แปลงข้อมูล
+    เช่น a = int("42")
+        type(a) #ออกมาเป็น int
+
+functions
+
+มีมากมายใน python วิธีเรียกใช้ส่วนใหญ่เป็น ชื่อfunction(ค่าที่สามารถใส่ในfuncนั้นๆได้)
+
+dict:
+    ครอบด้วย {}
+    variable = {"a":"mango",
+                "b":"mustard",
+                "c":5}
+
+list:
+    ครอบด้วย []
+    variable = ["dih","mustard",67]
+    แก้ไขได้
+tuple:
+    ครอบด้วย ()
+    เป็น list ที่แก้ไม่ได้
